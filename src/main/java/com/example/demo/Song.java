@@ -9,7 +9,7 @@ public class Song {
     private String artist;
     private String album;
     private  int rating;
-    private int year;}
+    private int year;
 
     public long getId() {
         return id;

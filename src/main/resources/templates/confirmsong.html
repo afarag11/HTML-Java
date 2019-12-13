@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,9 +8,6 @@
 <p th:inline="text">The song name was [[${song.name}]]. <br />
     The artist name is [[${song.artist}]]. <br />
     The album name is [[${song.album}]].<br />
-    The rating was [[${song.rating}]] and the year was [[$song.year]].
-
-
-</p>
+    The rating was [[${song.rating}]] and the year was [[${song.year}]].</p>
 </body>
 </html>
