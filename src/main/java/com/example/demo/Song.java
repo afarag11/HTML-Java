@@ -1,12 +1,15 @@
 package com.example.demo;
 
+import org.springframework.validation.beanvalidation.SpringValidatorAdapter;
+
 public class Song {
+
     private long id;
     private String name;
     private String artist;
     private String album;
-    private int rating;
-    private int year;
+    private  int rating;
+    private int year;}
 
     public long getId() {
         return id;
@@ -56,3 +59,6 @@ public class Song {
         this.year = year;
     }
 }
+
+
+
